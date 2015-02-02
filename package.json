@@ -2,6 +2,7 @@
     "name": "node-tech-time",
     "version": "1.0.0",
     "description": "Technical component to track requests/tasks durations",
+    "license": "MIT",
     "main": "techTime.js",
     "repository": {
         "type": "git",

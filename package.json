@@ -1,28 +1,29 @@
 {
-    "name": "node-tech-time",
-    "version": "1.0.1",
-    "description": "Technical component to track requests/tasks durations",
-    "license": "MIT",
-    "main": "techTime.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/AirVantage/node-tech-time.git"
+  "name": "node-tech-time",
+  "version": "1.0.1",
+  "description": "Technical component to track requests/tasks durations",
+  "license": "MIT",
+  "main": "techTime.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AirVantage/node-tech-time.git"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "grunt": "^0.4.5",
+    "grunt-release": "^0.11.0",
+    "grunt-tag": "^0.1.0",
+    "prettier": "^1.5.2"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true
     },
-    "devDependencies": {
-        "eslint": "^4.1.1",
-        "grunt": "^0.4.5",
-        "grunt-release": "^0.11.0",
-        "grunt-tag": "^0.1.0",
-        "prettier": "^1.5.2"
-    },
-    "eslintConfig": {
-        "env": {
-            "node": true,
-            "es6": true
-        },
-        "extends": ["eslint:recommended"],
-        "rules": {
-            "linebreak-style": ["error", "unix"]
-        }
+    "extends": ["eslint:recommended"],
+    "rules": {
+      "linebreak-style": ["error", "unix"],
+      "max-params": ["warn", 3]
     }
+  }
 }
